@@ -1,0 +1,9 @@
+.header-bar.ui.menu{
+    border-radius: 0%;
+    border-left: 0px ;
+
+}
+
+.header-bar.ui.menu > .item{
+    line-height: 40px;
+}

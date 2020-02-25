@@ -1,0 +1,16 @@
+.registration-page-wrapper{
+    position: absolute;
+    background-color: #eee;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.login-form{
+    position: relative;
+    width: 50%;
+    align-self: center;
+}

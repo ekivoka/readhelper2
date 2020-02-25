@@ -1,0 +1,76 @@
+.sidebar-pushable{
+    position:relative;
+    display: flex;
+    height: 100%;
+}
+
+#root > div > div > div.page-container > div.page-content > div > div{
+    border:0px;
+    border-radius: 0px;
+}
+
+
+.sidebar-pushable-wrap{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar-pushable > .ui.vertical.bar.menu{
+    overflow: initial;
+    margin-bottom: 0px;
+}
+
+.sidebar-pushable>.pusher{
+    width: 100%;
+}
+
+.page-wrap{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.page-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+.page-content{
+    flex-grow:1;
+    height:100%;
+}
+
+.page-menu > .ui.menu{
+    border-radius: 0px;
+}
+
+.page-menu > .ui.vertical.menu>.item:first-child{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#root > div > div > div.page-container > div.page-content > div > div > div.ui.inverted.vertical.labeled.icon.ui.overlay.left.visible.sidebar.menu{
+    position: relative
+}
+
+.page-back{
+    height:100%;
+    background-color: #eeecec;
+    padding: 0px;
+    border: 1px solid inherit;
+}
